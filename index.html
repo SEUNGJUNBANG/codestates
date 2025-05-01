@@ -16,7 +16,6 @@
     <script>
         $(function () {
             var swiper = new Swiper(".swiper-04", {
-                cssMode: true,
                 slidesPerView: 1,
                 spaceBetween: 30,
                 loop: true,
@@ -24,16 +23,11 @@
                     nextEl: ".swiper-button-next",
                     prevEl: ".swiper-button-prev",
                 },
-                mousewheel: true,
                 keyboard: true,
             });
             var swiper = new Swiper(".mbswiper", {
                 slidesPerView: "1.4",
                 spaceBetween: 24,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
             });
         });//script end
     </script>
@@ -60,11 +54,13 @@
         <header class="mb_header">
             <div class="inner">
                 <div class="logo">
-                    <button type="button" class="menu">
-                        <img src="img/햄버거.svg" alt=""></button>
-                    <div class="image">
-                        <img src="img/로고.svg" alt="">
-                    </div><!-- .image -->
+                    <div class="gnb">
+                        <button type="button" class="menu">
+                            <img src="img/햄버거.svg" alt=""></button>
+                        <div class="image">
+                            <img src="img/로고.svg" alt="">
+                        </div><!-- .image -->
+                    </div><!-- .gnb -->
                     <button type="button" class="btn">기업교육 문의하기</button>
                 </div><!-- .logo -->
             </div><!-- .inner -->
@@ -86,6 +82,20 @@
                 </div><!-- .image -->
             </div><!-- .inner -->
         </section><!-- .section-01 -->
+
+        <!-----------moblie ------------->
+        <section class="section-01mb">
+            <div class="inner">
+                <div class="title">
+                    <h1>DT교육을 위한<br />올인원 솔루션,코드스테이츠</h1>
+                    <p>역량진단부터 최신 커리큘럼의 맞춤형 교육까지,<br />
+                        출발선이 다른 개인을 조직의 목표 달성으로 이끕니다.</p>
+                </div><!-- .title -->
+                <div class="image">
+                    <img src="img/메인.png" alt="메인이미지">
+                </div><!-- .image -->
+            </div><!-- .inner -->
+        </section><!-- .section-01mb -->
 
 
         <section class="section-02">
@@ -167,7 +177,14 @@
                 </div><!-- .image -->
             </div><!-- .inner -->
         </section><!-- .section-03 -->
-
+        <!-----------moblie--------------->
+        <div class="section-03mb">
+            <div class="inner">
+                <div class="image">
+                    <img src="img/모바일섹션3.png" alt="">
+                </div><!-- .image -->
+            </div><!-- .inner -->
+        </div><!-- .scetion-03mb -->
 
         <section class="section-04">
             <div class="inner">
@@ -335,7 +352,9 @@
         <div class="footer">
             <div class="inner">
                 <div class="logo">
-                    <img src="img/푸터로고.svg" alt="">
+                    <div class="image">
+                        <img src="img/푸터로고.svg" alt="">
+                    </div><!-- .image -->
                     <p>상호명: 주식회사 코드스테이츠 | 대표자명: 김인기 | 사업장주소: 서울특별시 강남구 테헤란로 151, 6층 602, 603호 (하이츠빌딩)<br />
                         사업자번호: 703-88-00878 | 유료직업소개사업등록번호: (국내) 제2023-3220250-14-5-00024호</p>
                     <p>기업교육 문의: b2b@codestates.com 기타 문의: communication@codestates.com</p>
